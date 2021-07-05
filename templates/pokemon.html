@@ -1,0 +1,61 @@
+{% extends "base.html"%}
+
+{% block content%}      
+    <div class="container">
+        {% for pokemon in Results %}
+        <div class="game">
+            <div class="rank">{{pokemon.id}}</div>
+            <div class="front">
+                <img class="thumbnail" src="{{pokemon.image}}" alt="">
+                <h3 class="name">{{pokemon.name}}</h3>
+                <div class="stats">
+                    <!-- <p class="viewers">{{pokemon.type[0]}}</p>
+                    <div class="streamers">
+                        <img src="{{pokemon.image}}" alt="">
+                        <img src="{{pokemon.image}}" alt="">
+                        <img src="{{pokemon.image}}" alt="">
+                    </div> -->
+                </div>
+            </div>
+            <div class="back">
+                <div class="streaming-info">
+                    <p class="game-stat">{{pokemon.type[0]}}<span></span>
+                    </p>
+                    <p class="game-stat">{{pokemon.type[1]}}<span></span></p>
+                </div>
+                <button class="btn">See More About</button>
+                <div class="streamers">
+                    <div class="streamer">
+                        <div class="icon">{{pokemon.stats['hp']}}</div>
+                        <p class="name">HP</p>
+                        <!-- <p class="number">36</p> -->
+                    </div>
+                    <div class="streamer">
+                        <div class="icon">{{pokemon.stats['attack']}}</div>
+                        <p class="name">ATTACK</p>
+                        <!-- <p class="number">35</p> -->
+                    </div>
+                    <div class="streamer">
+                        <div class="icon">{{pokemon.stats['defense']}}</div>
+                        <p class="name">DEFENSE</p>
+                        <!-- <p class="number">34</p> -->
+                    </div>
+                </div>
+            </div>
+            <div class="background">
+                <img src="{{pokemon.image}}" alt="">
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <svg width="0" height="0" x="0px" y="0px">
+        <defs>
+            <clipPath id="wave" clipPathUnits="objectBoundingBox">
+                <path d="M1.5,0H1H0.5H0v0.8C0.3,0.8,0.3,1,0.5,1c0,0,0,0,0,0C0.8,1,0.8,0.8,1,0.8c0,0,0,0,0,0C1.3,0.8,1.3,1,1.5,1
+      C1.8,1,1.8,0.8,2,0.8V0H1.5z" />
+                <animateTransform attributeType="XML" attributeName="transform" type="translate" from="0 0" to="-200 0"
+                    begin="0s" dur="10s" repeatCount="indefinite" />
+            </clipPath>
+        </defs>
+    </svg>
+    {% endblock%}

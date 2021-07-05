@@ -1,0 +1,8 @@
+# created by virtualenv automatically
+*.cfg
+__pycache__/
+Lib/
+Scripts/
+NicePng_pokeball-outline-png_1447020.png
+NicePng_pokemon-ball-png_1564585.png
+pokeball_PNG30.png
