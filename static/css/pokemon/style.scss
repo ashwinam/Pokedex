@@ -122,17 +122,17 @@ img {
         // border: 1px solid red;
     }
 
-    .streamers img{
-        border: 1px solid var(--clr-dark);
-        &:nth-of-type(1){
-            transform: translatex(50%);
-            z-index: 1;
-        }
+    // .streamers img{
+    //     border: 1px solid var(--clr-dark);
+    //     &:nth-of-type(1){
+    //         transform: translatex(50%);
+    //         z-index: 1;
+    //     }
 
-        &:nth-of-type(2){
-            transform: translatex(25%);
-        }
-    }
+    //     &:nth-of-type(2){
+    //         transform: translatex(25%);
+    //     }
+    // }
 }
 
 .back {
@@ -158,10 +158,10 @@ img {
         font-size: 1.125rem;
         text-align: center;
 
-        span {
-            font-size: .85rem;
-            display: block;
-        }
+        // span {
+        //     font-size: .85rem;
+        //     display: block;
+        // }
     }
 }
 

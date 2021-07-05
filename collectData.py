@@ -5,7 +5,7 @@ import time
 results=[]
 
 t1=time.perf_counter()
-for i in range(1,151): #set number for the pokemon im set 150 pokemon
+for i in range(1,201): #set number for the pokemon im set 200 pokemon
     response=requests.get(f'https://pokeapi.co/api/v2/pokemon/{i}')
     # imgResponse=requests.get(f'https://pokeres.bastionbot.org/images/pokemon/{i}.png')
 

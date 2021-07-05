@@ -1,3 +1,6 @@
+# after collecting data from collectdata.py always give a Results variable for accesing a data 
+
+
 Results=[
     {
         "id": 1,
@@ -2014,6 +2017,679 @@ Results=[
             "hp": 106,
             "attack": 110,
             "defense": 90
+        }
+    },
+    {
+        "id": 151,
+        "name": "mew",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/151.png",
+        "type": [
+            "psychic"
+        ],
+        "stats": {
+            "hp": 100,
+            "attack": 100,
+            "defense": 100
+        }
+    },
+    {
+        "id": 152,
+        "name": "chikorita",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/152.png",
+        "type": [
+            "grass"
+        ],
+        "stats": {
+            "hp": 45,
+            "attack": 49,
+            "defense": 65
+        }
+    },
+    {
+        "id": 153,
+        "name": "bayleef",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/153.png",
+        "type": [
+            "grass"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 62,
+            "defense": 80
+        }
+    },
+    {
+        "id": 154,
+        "name": "meganium",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/154.png",
+        "type": [
+            "grass"
+        ],
+        "stats": {
+            "hp": 80,
+            "attack": 82,
+            "defense": 100
+        }
+    },
+    {
+        "id": 155,
+        "name": "cyndaquil",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/155.png",
+        "type": [
+            "fire"
+        ],
+        "stats": {
+            "hp": 39,
+            "attack": 52,
+            "defense": 43
+        }
+    },
+    {
+        "id": 156,
+        "name": "quilava",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/156.png",
+        "type": [
+            "fire"
+        ],
+        "stats": {
+            "hp": 58,
+            "attack": 64,
+            "defense": 58
+        }
+    },
+    {
+        "id": 157,
+        "name": "typhlosion",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/157.png",
+        "type": [
+            "fire"
+        ],
+        "stats": {
+            "hp": 78,
+            "attack": 84,
+            "defense": 78
+        }
+    },
+    {
+        "id": 158,
+        "name": "totodile",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/158.png",
+        "type": [
+            "water"
+        ],
+        "stats": {
+            "hp": 50,
+            "attack": 65,
+            "defense": 64
+        }
+    },
+    {
+        "id": 159,
+        "name": "croconaw",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/159.png",
+        "type": [
+            "water"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 80,
+            "defense": 80
+        }
+    },
+    {
+        "id": 160,
+        "name": "feraligatr",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/160.png",
+        "type": [
+            "water"
+        ],
+        "stats": {
+            "hp": 85,
+            "attack": 105,
+            "defense": 100
+        }
+    },
+    {
+        "id": 161,
+        "name": "sentret",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/161.png",
+        "type": [
+            "normal"
+        ],
+        "stats": {
+            "hp": 35,
+            "attack": 46,
+            "defense": 34
+        }
+    },
+    {
+        "id": 162,
+        "name": "furret",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/162.png",
+        "type": [
+            "normal"
+        ],
+        "stats": {
+            "hp": 85,
+            "attack": 76,
+            "defense": 64
+        }
+    },
+    {
+        "id": 163,
+        "name": "hoothoot",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/163.png",
+        "type": [
+            "normal",
+            "flying"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 30,
+            "defense": 30
+        }
+    },
+    {
+        "id": 164,
+        "name": "noctowl",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/164.png",
+        "type": [
+            "normal",
+            "flying"
+        ],
+        "stats": {
+            "hp": 100,
+            "attack": 50,
+            "defense": 50
+        }
+    },
+    {
+        "id": 165,
+        "name": "ledyba",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/165.png",
+        "type": [
+            "bug",
+            "flying"
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 20,
+            "defense": 30
+        }
+    },
+    {
+        "id": 166,
+        "name": "ledian",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/166.png",
+        "type": [
+            "bug",
+            "flying"
+        ],
+        "stats": {
+            "hp": 55,
+            "attack": 35,
+            "defense": 50
+        }
+    },
+    {
+        "id": 167,
+        "name": "spinarak",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/167.png",
+        "type": [
+            "bug",
+            "poison"
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 60,
+            "defense": 40
+        }
+    },
+    {
+        "id": 168,
+        "name": "ariados",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/168.png",
+        "type": [
+            "bug",
+            "poison"
+        ],
+        "stats": {
+            "hp": 70,
+            "attack": 90,
+            "defense": 70
+        }
+    },
+    {
+        "id": 169,
+        "name": "crobat",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/169.png",
+        "type": [
+            "poison",
+            "flying"
+        ],
+        "stats": {
+            "hp": 85,
+            "attack": 90,
+            "defense": 80
+        }
+    },
+    {
+        "id": 170,
+        "name": "chinchou",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/170.png",
+        "type": [
+            "water",
+            "electric"
+        ],
+        "stats": {
+            "hp": 75,
+            "attack": 38,
+            "defense": 38
+        }
+    },
+    {
+        "id": 171,
+        "name": "lanturn",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/171.png",
+        "type": [
+            "water",
+            "electric"
+        ],
+        "stats": {
+            "hp": 125,
+            "attack": 58,
+            "defense": 58
+        }
+    },
+    {
+        "id": 172,
+        "name": "pichu",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/172.png",
+        "type": [
+            "electric"
+        ],
+        "stats": {
+            "hp": 20,
+            "attack": 40,
+            "defense": 15
+        }
+    },
+    {
+        "id": 173,
+        "name": "cleffa",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/173.png",
+        "type": [
+            "fairy"
+        ],
+        "stats": {
+            "hp": 50,
+            "attack": 25,
+            "defense": 28
+        }
+    },
+    {
+        "id": 174,
+        "name": "igglybuff",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/174.png",
+        "type": [
+            "normal",
+            "fairy"
+        ],
+        "stats": {
+            "hp": 90,
+            "attack": 30,
+            "defense": 15
+        }
+    },
+    {
+        "id": 175,
+        "name": "togepi",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/175.png",
+        "type": [
+            "fairy"
+        ],
+        "stats": {
+            "hp": 35,
+            "attack": 20,
+            "defense": 65
+        }
+    },
+    {
+        "id": 176,
+        "name": "togetic",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/176.png",
+        "type": [
+            "fairy",
+            "flying"
+        ],
+        "stats": {
+            "hp": 55,
+            "attack": 40,
+            "defense": 85
+        }
+    },
+    {
+        "id": 177,
+        "name": "natu",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/177.png",
+        "type": [
+            "psychic",
+            "flying"
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 50,
+            "defense": 45
+        }
+    },
+    {
+        "id": 178,
+        "name": "xatu",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/178.png",
+        "type": [
+            "psychic",
+            "flying"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 75,
+            "defense": 70
+        }
+    },
+    {
+        "id": 179,
+        "name": "mareep",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/179.png",
+        "type": [
+            "electric"
+        ],
+        "stats": {
+            "hp": 55,
+            "attack": 40,
+            "defense": 40
+        }
+    },
+    {
+        "id": 180,
+        "name": "flaaffy",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/180.png",
+        "type": [
+            "electric"
+        ],
+        "stats": {
+            "hp": 70,
+            "attack": 55,
+            "defense": 55
+        }
+    },
+    {
+        "id": 181,
+        "name": "ampharos",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/181.png",
+        "type": [
+            "electric"
+        ],
+        "stats": {
+            "hp": 90,
+            "attack": 75,
+            "defense": 85
+        }
+    },
+    {
+        "id": 182,
+        "name": "bellossom",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/182.png",
+        "type": [
+            "grass"
+        ],
+        "stats": {
+            "hp": 75,
+            "attack": 80,
+            "defense": 95
+        }
+    },
+    {
+        "id": 183,
+        "name": "marill",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/183.png",
+        "type": [
+            "water",
+            "fairy"
+        ],
+        "stats": {
+            "hp": 70,
+            "attack": 20,
+            "defense": 50
+        }
+    },
+    {
+        "id": 184,
+        "name": "azumarill",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/184.png",
+        "type": [
+            "water",
+            "fairy"
+        ],
+        "stats": {
+            "hp": 100,
+            "attack": 50,
+            "defense": 80
+        }
+    },
+    {
+        "id": 185,
+        "name": "sudowoodo",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/185.png",
+        "type": [
+            "rock"
+        ],
+        "stats": {
+            "hp": 70,
+            "attack": 100,
+            "defense": 115
+        }
+    },
+    {
+        "id": 186,
+        "name": "politoed",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/186.png",
+        "type": [
+            "water"
+        ],
+        "stats": {
+            "hp": 90,
+            "attack": 75,
+            "defense": 75
+        }
+    },
+    {
+        "id": 187,
+        "name": "hoppip",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/187.png",
+        "type": [
+            "grass",
+            "flying"
+        ],
+        "stats": {
+            "hp": 35,
+            "attack": 35,
+            "defense": 40
+        }
+    },
+    {
+        "id": 188,
+        "name": "skiploom",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/188.png",
+        "type": [
+            "grass",
+            "flying"
+        ],
+        "stats": {
+            "hp": 55,
+            "attack": 45,
+            "defense": 50
+        }
+    },
+    {
+        "id": 189,
+        "name": "jumpluff",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/189.png",
+        "type": [
+            "grass",
+            "flying"
+        ],
+        "stats": {
+            "hp": 75,
+            "attack": 55,
+            "defense": 70
+        }
+    },
+    {
+        "id": 190,
+        "name": "aipom",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/190.png",
+        "type": [
+            "normal"
+        ],
+        "stats": {
+            "hp": 55,
+            "attack": 70,
+            "defense": 55
+        }
+    },
+    {
+        "id": 191,
+        "name": "sunkern",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/191.png",
+        "type": [
+            "grass"
+        ],
+        "stats": {
+            "hp": 30,
+            "attack": 30,
+            "defense": 30
+        }
+    },
+    {
+        "id": 192,
+        "name": "sunflora",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/192.png",
+        "type": [
+            "grass"
+        ],
+        "stats": {
+            "hp": 75,
+            "attack": 75,
+            "defense": 55
+        }
+    },
+    {
+        "id": 193,
+        "name": "yanma",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/193.png",
+        "type": [
+            "bug",
+            "flying"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 65,
+            "defense": 45
+        }
+    },
+    {
+        "id": 194,
+        "name": "wooper",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/194.png",
+        "type": [
+            "water",
+            "ground"
+        ],
+        "stats": {
+            "hp": 55,
+            "attack": 45,
+            "defense": 45
+        }
+    },
+    {
+        "id": 195,
+        "name": "quagsire",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/195.png",
+        "type": [
+            "water",
+            "ground"
+        ],
+        "stats": {
+            "hp": 95,
+            "attack": 85,
+            "defense": 85
+        }
+    },
+    {
+        "id": 196,
+        "name": "espeon",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/196.png",
+        "type": [
+            "psychic"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 65,
+            "defense": 60
+        }
+    },
+    {
+        "id": 197,
+        "name": "umbreon",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/197.png",
+        "type": [
+            "dark"
+        ],
+        "stats": {
+            "hp": 95,
+            "attack": 65,
+            "defense": 110
+        }
+    },
+    {
+        "id": 198,
+        "name": "murkrow",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/198.png",
+        "type": [
+            "dark",
+            "flying"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 85,
+            "defense": 42
+        }
+    },
+    {
+        "id": 199,
+        "name": "slowking",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/199.png",
+        "type": [
+            "water",
+            "psychic"
+        ],
+        "stats": {
+            "hp": 95,
+            "attack": 75,
+            "defense": 80
+        }
+    },
+    {
+        "id": 200,
+        "name": "misdreavus",
+        "image": "https://pokeres.bastionbot.org/images/pokemon/200.png",
+        "type": [
+            "ghost"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 60,
+            "defense": 60
         }
     }
 ]

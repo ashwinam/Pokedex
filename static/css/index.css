@@ -37,6 +37,10 @@
     margin-left: 10px;
 }
 
+.btns a {
+    text-decoration: none;
+    color: #191919;
+}
 .btns:hover {
     background: #848482;
 }
@@ -51,6 +55,6 @@
 
 .ball:hover {
     filter: grayscale(0);
-    transition: .9s;
+    transition: 1.1s;
     cursor: pointer;
 }
