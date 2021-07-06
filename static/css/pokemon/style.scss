@@ -167,7 +167,9 @@ img {
 
 
 .background {
-    background: rgb(40, 46, 54);
+    background: rgba(40, 46, 54, 0.1);
+    backdrop-filter: blur(30px);
+    box-shadow: 10px 10px 10px rgba(45,55,68,0.3);
     position: absolute;
     top: 0;
     bottom: 0;
