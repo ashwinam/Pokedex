@@ -5,7 +5,8 @@ import time
 results=[]
 
 t1=time.perf_counter()
-for i in range(1,201): #set number for the pokemon im set 200 pokemon
+#set number for the pokemon im set 500 pokemon
+for i in range(1,501):
     response=requests.get(f'https://pokeapi.co/api/v2/pokemon/{i}')
     # imgResponse=requests.get(f'https://pokeres.bastionbot.org/images/pokemon/{i}.png')
 
@@ -16,7 +17,9 @@ for i in range(1,201): #set number for the pokemon im set 200 pokemon
     # print(package_str)
     pokemonId=package_jason['id']
     pokemonName=package_jason['name']
-    pokemonImage=(f'https://pokeres.bastionbot.org/images/pokemon/{i}.png')
+    pokemonImage=(f'https://assets.pokemon.com/assets/cms2/img/pokedex/full/{i:03}.png')
+    #(f'https://pokeres.bastionbot.org/images/pokemon/{i}.png')
+    #(f'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{i}.png')
     pokemonStatsName=[]
     pokemonBaseStats=[]
     for j in package_jason['stats'][0:3]:
